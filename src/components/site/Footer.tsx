@@ -35,7 +35,7 @@ export function Footer() {
           <h4 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">Get the apps</h4>
           <div className="mt-3 flex flex-col gap-2">
             <a
-              href="https://play.google.com/store/apps/details?id=com.hkfuliao.chamet"
+              href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
               target="_blank" rel="noreferrer"
               className="rounded-xl border border-border bg-card px-4 py-3 text-sm transition hover:border-primary/50"
             >

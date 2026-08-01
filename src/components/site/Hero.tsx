@@ -7,7 +7,7 @@ const HOST_LINK = "https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
 export function Hero() {
   return (
     <section className="relative overflow-hidden bg-hero-glow">
-      <div className="absolute inset-0 bg-grain opacity-60" aria-hidden />
+      <div className="pointer-events-none absolute inset-0 bg-grain opacity-60" aria-hidden />
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-8 lg:px-8 lg:pb-28 lg:pt-24">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

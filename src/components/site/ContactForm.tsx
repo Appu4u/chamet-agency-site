@@ -84,7 +84,7 @@ export function ContactForm() {
           Our team is online 7 days a week. Tap below to start a WhatsApp conversation.
         </p>
         <a
-          href="https://wa.me/15550000000"
+          href="https://wa.me/12342559343"
           target="_blank" rel="noreferrer"
           className="mt-5 inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground hover:opacity-90"
         >

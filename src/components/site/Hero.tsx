@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
 
 const AGENT_LINK = "https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596";
+const HOST_LINK = "https://h5.schamet.com/webH5/agent/bind.html?companyId=30596";
 
 export function Hero() {
   return (

@@ -43,7 +43,7 @@ export function Footer() {
               <div className="font-semibold">Chamet App</div>
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.bite.chillchat"
+              href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
               target="_blank" rel="noreferrer"
               className="rounded-xl border border-border bg-card px-4 py-3 text-sm transition hover:border-primary/50"
             >

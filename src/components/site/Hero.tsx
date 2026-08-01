@@ -36,7 +36,7 @@ export function Hero() {
             <a
               href={HOST_LINK}
               target="_blank" rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-6 py-3.5 text-sm font-semibold hover:bg-secondary"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition hover:opacity-90"
             >
               Become a Host
             </a>
@@ -51,7 +51,7 @@ export function Hero() {
               <span><span className="block text-[10px] uppercase tracking-wider">Download</span><span className="font-semibold text-foreground">Chamet App</span></span>
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.bite.chillchat"
+              href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
               target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 hover:border-primary/50"
             >

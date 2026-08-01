@@ -34,7 +34,7 @@ function HostPage() {
             <Download className="h-4 w-4" /> Download Chamet
           </a>
           <a
-            href="https://play.google.com/store/apps/details?id=com.bite.chillchat"
+            href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
             target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3.5 text-sm font-semibold hover:border-primary/50"
           >

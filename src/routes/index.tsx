@@ -56,7 +56,7 @@ function Home() {
         <StepsList variant="agent" />
         <div className="mt-10 text-center">
           <a
-            href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=3338"
+            href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596"
             target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow hover:opacity-90"
           >

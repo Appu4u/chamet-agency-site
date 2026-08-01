@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
 
-const AGENT_LINK = "https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=3338";
+const AGENT_LINK = "https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596";
 
 export function Hero() {
   return (

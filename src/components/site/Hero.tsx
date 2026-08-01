@@ -33,12 +33,13 @@ export function Hero() {
               Register as an Agent
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </a>
-            <Link
-              to="/host"
+            <a
+              href={HOST_LINK}
+              target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-6 py-3.5 text-sm font-semibold hover:bg-secondary"
             >
               Become a Host
-            </Link>
+            </a>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
             <a

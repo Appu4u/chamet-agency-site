@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
 
 const AGENT_LINK = "https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596";
+const HOST_LINK = "https://h5.schamet.com/webH5/agent/bind.html?companyId=30596";
 
 export function Hero() {
   return (
@@ -33,16 +33,17 @@ export function Hero() {
               Register as an Agent
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </a>
-            <Link
-              to="/host"
+            <a
+              href={HOST_LINK}
+              target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-6 py-3.5 text-sm font-semibold hover:bg-secondary"
             >
               Become a Host
-            </Link>
+            </a>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
             <a
-              href="https://play.google.com/store/apps/details?id=com.hkfuliao.chamet"
+              href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
               target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 hover:border-primary/50"
             >

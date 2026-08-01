@@ -27,7 +27,7 @@ function HostPage() {
         <StepsList variant="host" />
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           <a
-            href="https://play.google.com/store/apps/details?id=com.hkfuliao.chamet"
+            href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
             target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow hover:opacity-90"
           >

@@ -38,7 +38,7 @@ export function Navbar() {
           ))}
         </nav>
         <a
-          href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=3338"
+          href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596"
           target="_blank"
           rel="noreferrer"
           className="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-glow transition hover:opacity-90 lg:inline-flex"
@@ -67,7 +67,7 @@ export function Navbar() {
               </Link>
             ))}
             <a
-              href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=3338"
+              href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596"
               target="_blank"
               rel="noreferrer"
               className="mt-2 rounded-full bg-primary px-5 py-2.5 text-center text-sm font-semibold text-primary-foreground"

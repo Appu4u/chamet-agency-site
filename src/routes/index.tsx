@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       { title: "Chamet Agency — Become an Agent or Host & Earn Online" },
       { name: "description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
       { property: "og:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      { property: "og:description", content: "Official Chamet partner agency. Free to join, weekly payouts, real support." },
+      { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
     ],
   }),
   component: Home,

@@ -2,12 +2,36 @@ import { motion } from "framer-motion";
 import { GraduationCap, Headphones, Wallet, Trophy, Globe2, TrendingUp } from "lucide-react";
 
 const items = [
-  { icon: GraduationCap, title: "Pro training", body: "Onboarding playbooks, streaming tips, and growth coaching from top-tier agents." },
-  { icon: Headphones, title: "24 / 7 support", body: "Direct line to our team in English, Hindi, Urdu, Spanish, and Arabic." },
-  { icon: Wallet, title: "Weekly payouts", body: "Get paid every Monday — bank transfer, wallets, or crypto where available." },
-  { icon: Trophy, title: "Bonus campaigns", body: "Stack official Chamet bonuses with our agency-only top-up rewards." },
-  { icon: Globe2, title: "Global community", body: "A network of 1000+ hosts across 18 countries to learn and collab with." },
-  { icon: TrendingUp, title: "Real growth path", body: "Climb from host → senior host → sub-agent → agency partner with clear tiers." },
+  {
+    icon: GraduationCap,
+    title: "Pro training",
+    body: "Onboarding playbooks, streaming tips, and growth coaching from top-tier agents.",
+  },
+  {
+    icon: Headphones,
+    title: "24 / 7 support",
+    body: "Direct line to our team in English, Hindi, Urdu, Spanish, and Arabic.",
+  },
+  {
+    icon: Wallet,
+    title: "Weekly payouts",
+    body: "Get paid every Monday — bank transfer, wallets, or crypto where available.",
+  },
+  {
+    icon: Trophy,
+    title: "Bonus campaigns",
+    body: "Stack official Chamet bonuses with our agency-only top-up rewards.",
+  },
+  {
+    icon: Globe2,
+    title: "Global community",
+    body: "A network of 1000+ hosts across 18 countries to learn and collab with.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Real growth path",
+    body: "Climb from host → senior host → sub-agent → agency partner with clear tiers.",
+  },
 ];
 
 export function Benefits() {

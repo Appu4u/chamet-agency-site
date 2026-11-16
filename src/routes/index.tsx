@@ -13,9 +13,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      { name: "description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
+      {
+        name: "description",
+        content:
+          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
+      },
       { property: "og:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
+      {
+        property: "og:description",
+        content:
+          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
+      },
     ],
   }),
   component: Home,
@@ -29,8 +37,28 @@ function Home() {
       <Section
         id="about"
         eyebrow="Who we are"
-        title={<>A modern agency built for ambitious <span className="text-gradient-gold">creators</span>.</>}
-        intro="We are an officially invited Chamet partner agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support."
+        title={
+          <>
+            A modern agency built for ambitious <span className="text-gradient-gold">creators</span>
+            .
+          </>
+        }
+        intro={
+          <>
+            We are a Chamet Certified Agency helping new and experienced creators earn from live
+            streaming. Our promise: real income, real training, and real human support.
+            <br />
+            Chamet official website:{" "}
+            <a
+              href="https://www.chamet.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-primary underline underline-offset-4"
+            >
+              https://www.chamet.com/
+            </a>
+          </>
+        }
       >
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[
@@ -40,7 +68,9 @@ function Home() {
             { k: "4.9 / 5", v: "Host satisfaction" },
           ].map((s) => (
             <div key={s.v} className="rounded-3xl border border-border bg-card p-6 text-center">
-              <div className="font-display text-3xl font-bold text-gradient-gold md:text-4xl">{s.k}</div>
+              <div className="font-display text-3xl font-bold text-gradient-gold md:text-4xl">
+                {s.k}
+              </div>
               <div className="mt-1 text-sm text-muted-foreground">{s.v}</div>
             </div>
           ))}
@@ -57,7 +87,8 @@ function Home() {
         <div className="mt-10 text-center">
           <a
             href="https://h5.schamet.com/webH5/inviteAgent/bind.html?companyId=30596"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow hover:opacity-90"
           >
             Start agent registration <ArrowRight className="h-4 w-4" />

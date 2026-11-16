@@ -8,7 +8,10 @@ export const Route = createFileRoute("/blogs")({
   head: () => ({
     meta: [
       { title: "Chamet Agency Blog — Tips for Hosts and Agents" },
-      { name: "description", content: "Guides, growth tips, and earnings strategies for Chamet hosts and agency owners." },
+      {
+        name: "description",
+        content: "Guides, growth tips, and earnings strategies for Chamet hosts and agency owners.",
+      },
       { property: "og:title", content: "Chamet Agency Blog" },
       { property: "og:description", content: "Grow on Chamet faster — read our latest articles." },
     ],
@@ -36,7 +39,8 @@ function BlogsPage() {
               <h3 className="mt-2 font-display text-xl font-semibold">{p.title}</h3>
               <p className="mt-2 flex-1 text-sm text-muted-foreground">{p.excerpt}</p>
               <div className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary">
-                Read article <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+                Read article{" "}
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </div>
             </Link>
           ))}

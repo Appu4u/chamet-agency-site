@@ -11,7 +11,8 @@ export const posts: Post[] = [
     slug: "first-week-on-chamet",
     title: "Your first week on Chamet: a host playbook",
     category: "Hosting",
-    excerpt: "Seven days, seven moves. Here is exactly what to do from the moment you sign up to your first payout.",
+    excerpt:
+      "Seven days, seven moves. Here is exactly what to do from the moment you sign up to your first payout.",
     body: [
       "Day 1: Install the app, sign in under our agency code, and complete KYC. Aim for two clear photos and a 30-second intro video — these decide whether viewers tap in.",
       "Days 2–3: Stream twice a day for 60 minutes — once in the afternoon, once at night. Smile in the first three seconds; that single habit doubles your retention.",
@@ -23,7 +24,8 @@ export const posts: Post[] = [
     slug: "how-agents-actually-earn",
     title: "How Chamet agents actually earn (with real numbers)",
     category: "Agent",
-    excerpt: "We break down the override structure, monthly bonuses, and the realistic income from 5, 20, and 50 active hosts.",
+    excerpt:
+      "We break down the override structure, monthly bonuses, and the realistic income from 5, 20, and 50 active hosts.",
     body: [
       "An agent earns an override percentage on every coin their recruited hosts generate. At the Starter tier (1–5 hosts), this is 8%.",
       "Average active host on our roster earns around $600–$1,200 per month. Five hosts at 8% override = roughly $300–$500 monthly — passive on top of any hosting you do yourself.",
@@ -35,7 +37,8 @@ export const posts: Post[] = [
     slug: "avoid-fake-agencies",
     title: "Red flags: how to avoid fake Chamet agencies",
     category: "Trust & safety",
-    excerpt: "Not every agency is legit. Five warning signs to check before you give anyone your ID or stream coins.",
+    excerpt:
+      "Not every agency is legit. Five warning signs to check before you give anyone your ID or stream coins.",
     body: [
       "1. They ask for money upfront. Real agencies, including ours, are free to join — we make money only when you make money.",
       "2. No verifiable agency code on the official Chamet invite domain. If the link does not start with h5.schamet.com, walk away.",

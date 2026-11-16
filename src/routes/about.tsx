@@ -5,10 +5,17 @@ import { Section } from "@/components/site/Section";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Chamet Agency — Official Partner Agency" },
-      { name: "description", content: "Learn about Chamet Agency: our mission, team, and why creators across 18 countries trust us with their live streaming careers." },
+      { title: "About Chamet Agency — Chamet Certified Agency" },
+      {
+        name: "description",
+        content:
+          "Learn about Chamet Agency: our mission, team, and why creators across 18 countries trust us with their live streaming careers.",
+      },
       { property: "og:title", content: "About Chamet Agency" },
-      { property: "og:description", content: "Officially invited Chamet partner agency for ambitious global creators." },
+      {
+        property: "og:description",
+        content: "A Chamet Certified Agency for ambitious global creators.",
+      },
     ],
   }),
   component: AboutPage,
@@ -19,14 +26,20 @@ function AboutPage() {
     <SiteLayout>
       <Section
         eyebrow="About"
-        title={<>An agency built by <span className="text-gradient-gold">creators</span>, for creators.</>}
+        title={
+          <>
+            An agency built by <span className="text-gradient-gold">creators</span>, for creators.
+          </>
+        }
         intro="We started Chamet Agency because we lived the problem: incredible hosts losing months of income to bad agencies, slow payouts, and zero support. We fixed every one of those."
       >
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-8">
             <h3 className="font-display text-2xl font-bold">Our mission</h3>
             <p className="mt-3 text-muted-foreground">
-              Make live streaming a real, sustainable career for anyone with a phone and a dream. We invest in our hosts the way a great record label invests in artists — coaching, marketing, and uncapped upside.
+              Make live streaming a real, sustainable career for anyone with a phone and a dream. We
+              invest in our hosts the way a great record label invests in artists — coaching,
+              marketing, and uncapped upside.
             </p>
           </div>
           <div className="rounded-3xl border border-border bg-card p-8">

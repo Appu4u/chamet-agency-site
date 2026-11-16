@@ -16,18 +16,22 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium uppercase tracking-widest text-primary">
             <Sparkles className="h-3.5 w-3.5" />
-            Official Chamet Partner Agency
+            Chamet Certified Agency
           </div>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance md:text-6xl lg:text-7xl">
-            Turn your hours into a <span className="text-gradient-gold">global income</span> with Chamet.
+            Turn your hours into a <span className="text-gradient-gold">global income</span> with
+            Chamet.
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground md:text-lg">
-            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly payouts. Whether you want to host or build your own agency — we give you the playbook, the support, and the network.
+            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly
+            payouts. Whether you want to host or build your own agency — we give you the playbook,
+            the support, and the network.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href={AGENT_LINK}
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition hover:opacity-90"
             >
               Register as an Agent
@@ -35,7 +39,8 @@ export function Hero() {
             </a>
             <a
               href={HOST_LINK}
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-glow transition hover:opacity-90"
             >
               Become a Host
@@ -44,19 +49,27 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
             <a
               href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 hover:border-primary/50"
             >
               <Download className="h-4 w-4 text-primary" />
-              <span><span className="block text-[10px] uppercase tracking-wider">Download</span><span className="font-semibold text-foreground">Chamet App</span></span>
+              <span>
+                <span className="block text-[10px] uppercase tracking-wider">Download</span>
+                <span className="font-semibold text-foreground">Chamet App</span>
+              </span>
             </a>
             <a
               href="https://h5.schamet.com/webH5/agent/bind.html?companyId=30596"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-4 py-2.5 hover:border-primary/50"
             >
               <Download className="h-4 w-4 text-primary" />
-              <span><span className="block text-[10px] uppercase tracking-wider">Download</span><span className="font-semibold text-foreground">ChillChat</span></span>
+              <span>
+                <span className="block text-[10px] uppercase tracking-wider">Download</span>
+                <span className="font-semibold text-foreground">ChillChat</span>
+              </span>
             </a>
           </div>
         </motion.div>
@@ -71,10 +84,16 @@ export function Hero() {
           <div className="rounded-[2.5rem] border border-border bg-card p-6 shadow-card">
             <div className="flex items-center justify-between">
               <div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">Today's earnings</div>
-                <div className="mt-1 font-display text-3xl font-bold text-gradient-gold">$ 1,284.50</div>
+                <div className="text-xs uppercase tracking-widest text-muted-foreground">
+                  Today's earnings
+                </div>
+                <div className="mt-1 font-display text-3xl font-bold text-gradient-gold">
+                  $ 1,284.50
+                </div>
               </div>
-              <div className="rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-accent">+24%</div>
+              <div className="rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-accent">
+                +24%
+              </div>
             </div>
             <div className="mt-5 grid grid-cols-2 gap-3">
               {[
@@ -84,14 +103,20 @@ export function Hero() {
                 { k: "Top tier", v: "Diamond" },
               ].map((s) => (
                 <div key={s.k} className="rounded-2xl border border-border bg-background/60 p-4">
-                  <div className="text-[11px] uppercase tracking-wider text-muted-foreground">{s.k}</div>
+                  <div className="text-[11px] uppercase tracking-wider text-muted-foreground">
+                    {s.k}
+                  </div>
                   <div className="mt-1 font-display text-xl font-bold">{s.v}</div>
                 </div>
               ))}
             </div>
             <div className="mt-5 rounded-2xl border border-primary/30 bg-primary/10 p-4">
-              <div className="text-xs font-medium uppercase tracking-widest text-primary">Weekly payout</div>
-              <div className="mt-1 text-sm text-foreground/90">Sent automatically every Monday to your bank or wallet.</div>
+              <div className="text-xs font-medium uppercase tracking-widest text-primary">
+                Weekly payout
+              </div>
+              <div className="mt-1 text-sm text-foreground/90">
+                Sent automatically every Monday to your bank or wallet.
+              </div>
             </div>
           </div>
         </motion.div>

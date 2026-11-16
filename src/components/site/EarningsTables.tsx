@@ -22,13 +22,17 @@ export function EarningsTables() {
         <div key={t.title} className="overflow-hidden rounded-3xl border border-border bg-card">
           <div className="flex items-center justify-between border-b border-border bg-secondary/40 px-6 py-4">
             <h3 className="font-display text-lg font-semibold">{t.title}</h3>
-            <span className="rounded-full bg-primary/15 px-3 py-1 text-xs font-semibold text-primary">Updated 2026</span>
+            <span className="rounded-full bg-primary/15 px-3 py-1 text-xs font-semibold text-primary">
+              Updated 2026
+            </span>
           </div>
           <table className="w-full text-left text-sm">
             <thead>
               <tr className="text-muted-foreground">
                 {t.cols.map((c) => (
-                  <th key={c} className="px-6 py-3 text-xs font-medium uppercase tracking-wider">{c}</th>
+                  <th key={c} className="px-6 py-3 text-xs font-medium uppercase tracking-wider">
+                    {c}
+                  </th>
                 ))}
               </tr>
             </thead>
@@ -38,7 +42,12 @@ export function EarningsTables() {
                 return (
                   <tr key={vals[0]} className="border-t border-border/60">
                     {vals.map((v, i) => (
-                      <td key={i} className={`px-6 py-4 ${i === 0 ? "font-semibold" : ""} ${i === vals.length - 1 ? "text-primary" : ""}`}>{v}</td>
+                      <td
+                        key={i}
+                        className={`px-6 py-4 ${i === 0 ? "font-semibold" : ""} ${i === vals.length - 1 ? "text-primary" : ""}`}
+                      >
+                        {v}
+                      </td>
                     ))}
                   </tr>
                 );

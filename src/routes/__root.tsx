@@ -45,12 +45,17 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
         <p className="mt-2 text-sm text-muted-foreground">Please try again.</p>
         <div className="mt-6 flex justify-center gap-2">
           <button
-            onClick={() => { router.invalidate(); reset(); }}
+            onClick={() => {
+              router.invalidate();
+              reset();
+            }}
             className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground"
           >
             Try again
           </button>
-          <a href="/" className="rounded-full border border-border px-4 py-2 text-sm">Home</a>
+          <a href="/" className="rounded-full border border-border px-4 py-2 text-sm">
+            Home
+          </a>
         </div>
       </div>
     </div>
@@ -63,16 +68,36 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      { name: "description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
+      {
+        name: "description",
+        content:
+          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
+      },
       { name: "author", content: "Chamet Agency" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
       { name: "twitter:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
-      { name: "twitter:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png" },
+      {
+        property: "og:description",
+        content:
+          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png",
+      },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

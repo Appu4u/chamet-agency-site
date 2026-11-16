@@ -26,7 +26,9 @@ export const Route = createFileRoute("/blogs/$slug")({
     <SiteLayout>
       <div className="mx-auto max-w-3xl px-5 py-24 text-center">
         <h1 className="font-display text-4xl font-bold">Article not found</h1>
-        <Link to="/blogs" className="mt-4 inline-block text-primary">Back to blog</Link>
+        <Link to="/blogs" className="mt-4 inline-block text-primary">
+          Back to blog
+        </Link>
       </div>
     </SiteLayout>
   ),
@@ -46,11 +48,16 @@ function BlogPost() {
   return (
     <SiteLayout>
       <article className="mx-auto max-w-3xl px-5 py-16 lg:py-24">
-        <Link to="/blogs" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary">
+        <Link
+          to="/blogs"
+          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
+        >
           <ArrowLeft className="h-4 w-4" /> All articles
         </Link>
         <div className="mt-6 text-xs uppercase tracking-wider text-primary">{post.category}</div>
-        <h1 className="mt-2 font-display text-4xl font-bold leading-tight md:text-5xl">{post.title}</h1>
+        <h1 className="mt-2 font-display text-4xl font-bold leading-tight md:text-5xl">
+          {post.title}
+        </h1>
         <p className="mt-4 text-lg text-muted-foreground">{post.excerpt}</p>
         <div className="mt-10 space-y-5 text-base leading-relaxed text-foreground/90">
           {post.body.map((para: string, i: number) => (

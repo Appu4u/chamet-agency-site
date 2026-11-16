@@ -32,7 +32,7 @@ function Home() {
         id="about"
         eyebrow="Who we are"
         title={<>A modern agency built for ambitious <span className="text-gradient-gold">creators</span>.</>}
-        intro={<>We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support. <a href="https://www.chamet.com/" target="_blank" rel="noreferrer" className="text-primary underline underline-offset-4">Chamet official website: https://www.chamet.com/</a></>}
+        intro="We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support."
       >
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[

@@ -22,7 +22,7 @@ export function Hero() {
             Turn your hours into a <span className="text-gradient-gold">global income</span> with Chamet.
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground md:text-lg">
-            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly payouts. Whether you want to host or build your own agency — we give you the playbook, the support, and the network.
+            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly payouts. Whether you want to host or build your own agency — we give you the playbook, the support, and the network. <a href="https://www.chamet.com/" target="_blank" rel="noreferrer" className="text-primary underline underline-offset-4">Chamet official website: https://www.chamet.com/</a>
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a

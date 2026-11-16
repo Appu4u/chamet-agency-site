@@ -36,7 +36,22 @@ function Home() {
         id="about"
         eyebrow="Who we are"
         title={<>A modern agency built for ambitious <span className="text-gradient-gold">creators</span>.</>}
-        intro="We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support."
+        intro={
+          <>
+            We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support.{" "}
+            <span className="mt-3 block">
+              Chamet official website:{" "}
+              <a
+                href="https://www.chamet.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline underline-offset-4 hover:opacity-80"
+              >
+                https://www.chamet.com/
+              </a>
+            </span>
+          </>
+        }
       >
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[

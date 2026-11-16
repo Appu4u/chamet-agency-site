@@ -16,6 +16,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
       { property: "og:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
       { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Home,
@@ -30,7 +32,7 @@ function Home() {
         id="about"
         eyebrow="Who we are"
         title={<>A modern agency built for ambitious <span className="text-gradient-gold">creators</span>.</>}
-        intro="We are an officially invited Chamet partner agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support."
+        intro={<>We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support. <a href="https://www.chamet.com/" target="_blank" rel="noreferrer" className="text-primary underline underline-offset-4">Chamet official website: https://www.chamet.com/</a></>}
       >
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[

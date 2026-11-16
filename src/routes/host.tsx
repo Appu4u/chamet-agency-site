@@ -11,6 +11,8 @@ export const Route = createFileRoute("/host")({
       { name: "description", content: "Join Chamet Agency as a host. Daily streaming, global audience, and guaranteed weekly payouts with full support." },
       { property: "og:title", content: "Become a Chamet Host" },
       { property: "og:description", content: "Stream, connect, and earn — supported by a real agency every step of the way." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: HostPage,

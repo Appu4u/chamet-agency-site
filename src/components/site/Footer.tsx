@@ -10,7 +10,7 @@ export function Footer() {
             <span className="font-display text-lg font-bold">Chamet Agency</span>
           </div>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-            The official partner agency for ambitious Chamet hosts and agents. Earn globally, supported locally.
+            A Chamet Certified Agency for ambitious Chamet hosts and agents. Earn globally, supported locally.
           </p>
         </div>
         <div>
@@ -54,7 +54,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border/60 py-6 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Chamet Agency. Not affiliated with Chamet's parent company; we are an official invited partner agency.
+        © {new Date().getFullYear()} Chamet Agency. Not affiliated with Chamet's parent company; we are a Chamet Certified Agency.
       </div>
     </footer>
   );

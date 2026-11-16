@@ -6,6 +6,10 @@ export const Route = createFileRoute("/terms")({
     meta: [
       { title: "Terms of Use — Chamet Agency" },
       { name: "description", content: "The terms that govern your use of Chamet Agency services and partnership." },
+      { property: "og:title", content: "Terms of Use — Chamet Agency" },
+      { property: "og:description", content: "The terms that govern your use of Chamet Agency services and partnership." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: () => (

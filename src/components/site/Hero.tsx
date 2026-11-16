@@ -16,7 +16,7 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium uppercase tracking-widest text-primary">
             <Sparkles className="h-3.5 w-3.5" />
-            Official Chamet Partner Agency
+            Chamet Certified Agency
           </div>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance md:text-6xl lg:text-7xl">
             Turn your hours into a <span className="text-gradient-gold">global income</span> with Chamet.

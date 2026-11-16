@@ -10,6 +10,8 @@ export const Route = createFileRoute("/contact")({
       { name: "description", content: "Reach out to Chamet Agency for host or agent onboarding. We respond within an hour, 24/7, in 5 languages." },
       { property: "og:title", content: "Contact Chamet Agency" },
       { property: "og:description", content: "Real humans, real-time support — get started in under an hour." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: ContactPage,

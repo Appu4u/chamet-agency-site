@@ -14,6 +14,8 @@ export const Route = createFileRoute("/blogs")({
       },
       { property: "og:title", content: "Chamet Agency Blog" },
       { property: "og:description", content: "Grow on Chamet faster — read our latest articles." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: BlogsPage,

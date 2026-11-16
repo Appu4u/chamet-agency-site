@@ -14,10 +14,9 @@ export const Route = createFileRoute("/agent")({
           "Step-by-step guide to becoming a Chamet Agent. Recruit hosts, manage your team, and earn override commission weekly.",
       },
       { property: "og:title", content: "Become a Chamet Agent" },
-      {
-        property: "og:description",
-        content: "Open your Chamet agency in minutes with our Chamet Certified Agency code.",
-      },
+      { property: "og:description", content: "Open your Chamet agency in minutes with our agency registration code." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: AgentPage,
@@ -28,12 +27,8 @@ function AgentPage() {
     <SiteLayout>
       <Section
         eyebrow="Agent registration"
-        title={
-          <>
-            Open your <span className="text-gradient-gold">Chamet Agency</span> in minutes.
-          </>
-        }
-        intro="Register under our Chamet Certified Agency code and unlock full agency tools, training, and weekly override commissions on every host you recruit."
+        title={<>Open your <span className="text-gradient-gold">Chamet Agency</span> in minutes.</>}
+        intro="Register with our agency code and unlock full agency tools, training, and weekly override commissions on every host you recruit."
       >
         <StepsList variant="agent" />
         <div className="mt-10 text-center">

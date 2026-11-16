@@ -19,11 +19,9 @@ export const Route = createFileRoute("/")({
           "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
       },
       { property: "og:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
-      {
-        property: "og:description",
-        content:
-          "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents.",
-      },
+      { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Home,
@@ -37,28 +35,8 @@ function Home() {
       <Section
         id="about"
         eyebrow="Who we are"
-        title={
-          <>
-            A modern agency built for ambitious <span className="text-gradient-gold">creators</span>
-            .
-          </>
-        }
-        intro={
-          <>
-            We are a Chamet Certified Agency helping new and experienced creators earn from live
-            streaming. Our promise: real income, real training, and real human support.
-            <br />
-            Chamet official website:{" "}
-            <a
-              href="https://www.chamet.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-primary underline underline-offset-4"
-            >
-              https://www.chamet.com/
-            </a>
-          </>
-        }
+        title={<>A modern agency built for ambitious <span className="text-gradient-gold">creators</span>.</>}
+        intro="We are a Chamet Certified Agency helping new and experienced creators earn from live streaming. Our promise: real income, real training, and real human support."
       >
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[

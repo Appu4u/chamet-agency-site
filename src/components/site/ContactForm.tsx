@@ -15,7 +15,7 @@ export function ContactForm() {
       name: String(fd.get("name") || "").trim(),
       email: String(fd.get("email") || "").trim(),
       whatsapp: String(fd.get("whatsapp") || "").trim(),
-      role: (String(fd.get("role") || "agent") as "agent" | "host" | "other"),
+      role: String(fd.get("role") || "agent") as "agent" | "host" | "other",
       message: String(fd.get("message") || "").trim(),
     };
     if (!data.name || !data.email || !data.message) {
@@ -37,16 +37,15 @@ export function ContactForm() {
 
   return (
     <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-      <form
-        onSubmit={onSubmit}
-        className="rounded-3xl border border-border bg-card p-6 md:p-8"
-      >
+      <form onSubmit={onSubmit} className="rounded-3xl border border-border bg-card p-6 md:p-8">
         <div className="grid gap-4 md:grid-cols-2">
           <Field label="Full name" name="name" placeholder="Aisha Khan" required />
           <Field label="Email" type="email" name="email" placeholder="you@email.com" required />
           <Field label="WhatsApp (optional)" name="whatsapp" placeholder="+92 300 0000000" />
           <div>
-            <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">I want to join as</label>
+            <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">
+              I want to join as
+            </label>
             <select
               name="role"
               defaultValue="agent"
@@ -59,7 +58,9 @@ export function ContactForm() {
           </div>
         </div>
         <div className="mt-4">
-          <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">Message</label>
+          <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">
+            Message
+          </label>
           <textarea
             name="message"
             required
@@ -85,7 +86,8 @@ export function ContactForm() {
         </p>
         <a
           href="https://wa.me/12342559343"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
           className="mt-5 inline-flex items-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground hover:opacity-90"
         >
           <MessageCircle className="h-4 w-4" />
@@ -101,10 +103,15 @@ export function ContactForm() {
   );
 }
 
-function Field({ label, ...props }: { label: string } & React.InputHTMLAttributes<HTMLInputElement>) {
+function Field({
+  label,
+  ...props
+}: { label: string } & React.InputHTMLAttributes<HTMLInputElement>) {
   return (
     <div>
-      <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">{label}</label>
+      <label className="mb-1.5 block text-xs font-medium uppercase tracking-wider text-muted-foreground">
+        {label}
+      </label>
       <input
         {...props}
         className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm outline-none focus:border-primary"

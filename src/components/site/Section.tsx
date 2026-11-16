@@ -45,9 +45,7 @@ export function Section({
             )}
           </motion.div>
         )}
-        <div className={eyebrow || title || intro ? "mt-12 lg:mt-16" : ""}>
-          {children}
-        </div>
+        <div className={eyebrow || title || intro ? "mt-12 lg:mt-16" : ""}>{children}</div>
       </div>
     </section>
   );

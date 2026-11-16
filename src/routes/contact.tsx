@@ -7,7 +7,11 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Chamet Agency — Talk to a Real Agent" },
-      { name: "description", content: "Reach out to Chamet Agency for host or agent onboarding. We respond within an hour, 24/7, in 5 languages." },
+      {
+        name: "description",
+        content:
+          "Reach out to Chamet Agency for host or agent onboarding. We respond within an hour, 24/7, in 5 languages.",
+      },
       { property: "og:title", content: "Contact Chamet Agency" },
       { property: "og:description", content: "Real humans, real-time support — get started in under an hour." },
       { property: "og:type", content: "website" },

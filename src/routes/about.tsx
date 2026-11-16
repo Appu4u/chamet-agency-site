@@ -21,14 +21,20 @@ function AboutPage() {
     <SiteLayout>
       <Section
         eyebrow="About"
-        title={<>An agency built by <span className="text-gradient-gold">creators</span>, for creators.</>}
+        title={
+          <>
+            An agency built by <span className="text-gradient-gold">creators</span>, for creators.
+          </>
+        }
         intro="We started Chamet Agency because we lived the problem: incredible hosts losing months of income to bad agencies, slow payouts, and zero support. We fixed every one of those."
       >
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-8">
             <h3 className="font-display text-2xl font-bold">Our mission</h3>
             <p className="mt-3 text-muted-foreground">
-              Make live streaming a real, sustainable career for anyone with a phone and a dream. We invest in our hosts the way a great record label invests in artists — coaching, marketing, and uncapped upside.
+              Make live streaming a real, sustainable career for anyone with a phone and a dream. We
+              invest in our hosts the way a great record label invests in artists — coaching,
+              marketing, and uncapped upside.
             </p>
           </div>
           <div className="rounded-3xl border border-border bg-card p-8">

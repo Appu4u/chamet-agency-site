@@ -23,17 +23,31 @@ const steps = [
   },
 ];
 
-export function StepsList({
-  variant = "agent",
-}: { variant?: "agent" | "host" }) {
+export function StepsList({ variant = "agent" }: { variant?: "agent" | "host" }) {
   const items =
     variant === "agent"
       ? steps
       : [
-          { n: "01", title: "Download the Chamet app", body: "Install Chamet from Google Play and register with your phone." },
-          { n: "02", title: "Join under our agency", body: "Use our agency invite code so you receive full support and bonuses." },
-          { n: "03", title: "Upload verification", body: "Submit a clear selfie and ID for instant host approval." },
-          { n: "04", title: "Go live & get paid", body: "Stream daily, build fans, and withdraw earnings every week." },
+          {
+            n: "01",
+            title: "Download the Chamet app",
+            body: "Install Chamet from Google Play and register with your phone.",
+          },
+          {
+            n: "02",
+            title: "Join under our agency",
+            body: "Use our agency invite code so you receive full support and bonuses.",
+          },
+          {
+            n: "03",
+            title: "Upload verification",
+            body: "Submit a clear selfie and ID for instant host approval.",
+          },
+          {
+            n: "04",
+            title: "Go live & get paid",
+            body: "Stream daily, build fans, and withdraw earnings every week.",
+          },
         ];
 
   return (

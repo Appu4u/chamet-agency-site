@@ -5,10 +5,12 @@ import { Section } from "@/components/site/Section";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Chamet Agency — Official Partner Agency" },
+      { title: "About Chamet Certified Agency" },
       { name: "description", content: "Learn about Chamet Agency: our mission, team, and why creators across 18 countries trust us with their live streaming careers." },
-      { property: "og:title", content: "About Chamet Agency" },
-      { property: "og:description", content: "Officially invited Chamet partner agency for ambitious global creators." },
+      { property: "og:title", content: "About Chamet Certified Agency" },
+      { property: "og:description", content: "A Chamet Certified Agency supporting ambitious global creators." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: AboutPage,

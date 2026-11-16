@@ -4,7 +4,7 @@ const steps = [
   {
     n: "01",
     title: "Open the agency invite link",
-    body: "Tap our official Chamet agency registration link to begin onboarding instantly.",
+    body: "Tap our Chamet agency registration link to begin onboarding instantly.",
   },
   {
     n: "02",

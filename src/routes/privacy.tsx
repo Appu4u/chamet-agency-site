@@ -6,6 +6,10 @@ export const Route = createFileRoute("/privacy")({
     meta: [
       { title: "Privacy Policy — Chamet Agency" },
       { name: "description", content: "How Chamet Agency collects, uses, and protects your personal information." },
+      { property: "og:title", content: "Privacy Policy — Chamet Agency" },
+      { property: "og:description", content: "How Chamet Agency collects, uses, and protects your personal information." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: () => (

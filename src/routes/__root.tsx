@@ -71,8 +71,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Chamet Agency — Become an Agent or Host & Earn Online" },
       { property: "og:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
       { name: "twitter:description", content: "Join Chamet Agency to recruit hosts, lead a global team, and earn weekly payouts. Pro training, 24/7 support, and bonus campaigns for hosts and agents." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0b4c3373-0543-4401-9a18-15a78846ac39/id-preview-2a6dd4da--23c763fc-4035-4706-9d05-c7d21e0c61e9.lovable.app-1785593406766.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

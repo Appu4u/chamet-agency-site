@@ -14,6 +14,8 @@ export const Route = createFileRoute("/blogs/$slug")({
         { name: "description", content: desc },
         { property: "og:title", content: title },
         { property: "og:description", content: desc },
+        { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },
@@ -42,7 +44,19 @@ export const Route = createFileRoute("/blogs/$slug")({
 });
 
 function BlogPost() {
-  const { post } = Route.useLoaderData();
+  const { slug } = Route.useParams();
+  const post = posts.find((item) => item.slug === slug);
+  if (!post) {
+    return (
+      <SiteLayout>
+        <div className="mx-auto max-w-3xl px-5 py-24 text-center">
+          <h1 className="font-display text-4xl font-bold">Article not found</h1>
+          <Link to="/blogs" className="mt-4 inline-block text-primary">Back to blog</Link>
+        </div>
+      </SiteLayout>
+    );
+  }
+
   return (
     <SiteLayout>
       <article className="mx-auto max-w-3xl px-5 py-16 lg:py-24">

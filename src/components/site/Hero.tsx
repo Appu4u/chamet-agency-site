@@ -16,13 +16,13 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium uppercase tracking-widest text-primary">
             <Sparkles className="h-3.5 w-3.5" />
-            Official Chamet Partner Agency
+            Chamet Certified Agency
           </div>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] tracking-tight text-balance md:text-6xl lg:text-7xl">
             Turn your hours into a <span className="text-gradient-gold">global income</span> with Chamet.
           </h1>
           <p className="mt-6 max-w-xl text-base text-muted-foreground md:text-lg">
-            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly payouts. Whether you want to host or build your own agency — we give you the playbook, the support, and the network.
+            Join Chamet Agency to recruit hosts, lead an international team, and unlock weekly payouts. Whether you want to host or build your own agency — we give you the playbook, the support, and the network. <a href="https://www.chamet.com/" target="_blank" rel="noreferrer" className="text-primary underline underline-offset-4">Chamet official website: https://www.chamet.com/</a>
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
